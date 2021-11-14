@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Clases_act">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="365dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="169dp"
+                android:layout_height="124dp"
+                android:layout_marginTop="24dp"
+                android:text="En esta seccion usted podrá gestionar las diversas clases que se imparten dentro del centro fitness"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.77"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="123dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/clases" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="223dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:text="AÑADIR CLASE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inte" />
+
+            <EditText
+                android:id="@+id/code"
+                android:layout_width="323dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Ingrese Codigo"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.619"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/clase"
+                android:layout_width="322dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Ingrese Clase"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.604"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/code" />
+
+            <EditText
+                android:id="@+id/inte"
+                android:layout_width="328dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Ingresa intesnidad"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.702"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clase" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="223dp"
+                android:layout_height="48dp"
+                android:text="Mostrar Clase"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="223dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:text="Eliminar Clase"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="229dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:text="Actualizar Clase"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

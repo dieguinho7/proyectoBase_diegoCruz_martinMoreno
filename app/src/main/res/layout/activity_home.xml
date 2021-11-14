@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Bienvenido a Biofit"
+                android:text="Bienvenido a CM"
                 android:textColor="#DD1C1C"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -41,7 +41,7 @@
                 android:layout_width="293dp"
                 android:layout_height="207dp"
                 android:layout_marginTop="16dp"
-                android:text="Biofit es la herramienta definitiva del fitness y el autocuidado, es una suit digital que promete la continua mejora y seguimiento del individuo también ofrece la gestion de centros fitness y gimnasios conocenos en biofit.cl"
+                android:text="En CM nos encargamos de que encuentres tu auto de los sueños a precio accesible con estandares de seguridad alto"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -111,15 +111,6 @@
                     android:background="@android:color/transparent"
                     app:srcCompat="@drawable/clases"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-                <ImageButton
-                    android:id="@+id/imageButton7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/complexion"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
