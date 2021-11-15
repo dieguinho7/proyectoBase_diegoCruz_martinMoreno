@@ -43,7 +43,7 @@ public class Insumos_act extends AppCompatActivity {
             if(opcion.equals(in.getInsumos()[i])) //Pregunto según el insumo seleccionado
             {
                 //resultado = in.getPrecio()[i];
-                resultado = in.anadirAdicional(in.getPrecio()[i], 250);
+                resultado = in.anadirAdicional(in.getPrecio()[i], 50000);
                 calificar.setRating(i + 1);
                 break;
             }

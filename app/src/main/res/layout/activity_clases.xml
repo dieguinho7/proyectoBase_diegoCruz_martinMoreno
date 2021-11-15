@@ -65,10 +65,10 @@
                 android:layout_width="223dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
-                android:text="AÑADIR CLASE"
+                android:text="AÑADIR Reserva"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/inte" />
+                app:layout_constraintTop_toBottomOf="@+id/meses" />
 
             <EditText
                 android:id="@+id/code"
@@ -85,12 +85,12 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <EditText
-                android:id="@+id/clase"
+                android:id="@+id/auto"
                 android:layout_width="322dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="12dp"
                 android:ems="10"
-                android:hint="Ingrese Clase"
+                android:hint="Ingrese Auto"
                 android:inputType="textPersonName"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.604"
@@ -98,23 +98,23 @@
                 app:layout_constraintTop_toBottomOf="@+id/code" />
 
             <EditText
-                android:id="@+id/inte"
+                android:id="@+id/meses"
                 android:layout_width="328dp"
                 android:layout_height="57dp"
                 android:layout_marginTop="4dp"
                 android:ems="10"
-                android:hint="Ingresa intesnidad"
+                android:hint="Ingresa meses"
                 android:inputType="textPersonName"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.702"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/clase" />
+                app:layout_constraintTop_toBottomOf="@+id/auto" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="223dp"
                 android:layout_height="48dp"
-                android:text="Mostrar Clase"
+                android:text="Mostrar Reserva"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button7" />
@@ -124,7 +124,7 @@
                 android:layout_width="223dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="8dp"
-                android:text="Eliminar Clase"
+                android:text="Eliminar Reserva"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -134,7 +134,7 @@
                 android:layout_width="229dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="8dp"
-                android:text="Actualizar Clase"
+                android:text="Actualizar Reserva"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.503"
                 app:layout_constraintStart_toStartOf="parent"

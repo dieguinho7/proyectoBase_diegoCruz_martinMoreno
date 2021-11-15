@@ -47,4 +47,9 @@ public class Home_act extends AppCompatActivity {
         i.putExtras(bun);
         startActivity(i);
     }
+    public void Reserva(View view)
+    {
+        Intent i = new Intent(getBaseContext(), Clases_act.class);
+        startActivity(i);
+    }
 }
